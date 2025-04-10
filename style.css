@@ -1,0 +1,58 @@
+body {
+    background-color: hsla(196, 100%, 58%, 0.405);
+}
+
+.container {
+    width: 600px;
+    height: 350px;
+    background-color: rgba(33, 113, 120, 0.874);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 25px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 35px rgba(72, 232, 246, 0.874);;
+}
+
+.display{
+    width: 700px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 5rem;
+    position: absolute;
+    top: 40%;
+    left: 27%;
+}
+
+.display p{
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+
+.display button{
+    padding: 20px 50px;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    font-weight: bold;
+    margin-top: 0px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#startbtn:hover{
+    background-color: hsl(151, 72%, 60%);
+}
+
+#stopbtn:hover{
+    background-color: hsl(25, 80%, 61%);
+}
+
+#resetbtn:hover{
+    background-color: hsl(209, 36%, 55%);
+}
